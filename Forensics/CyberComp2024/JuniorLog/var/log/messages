@@ -1,0 +1,540 @@
+Mar 14 16:22:03 controller1 syslog.info syslogd started: BusyBox v1.26.2
+Mar 14 16:22:03 controller1 daemon.info init: starting pid 3838, tty '': '/sbin/openrc default'
+Mar 14 16:22:03 controller1 cron.info crond[3882]: crond (busybox 1.26.2) started, log level 8
+Mar 14 16:22:03 controller1 kern.info kernel: [   16.351694] NET: Registered protocol family 10
+Mar 14 16:22:03 controller1 auth.info sshd[3915]: Server listening on 0.0.0.0 port 22.
+Mar 14 16:22:03 controller1 auth.info sshd[3915]: Server listening on :: port 22.
+Mar 14 16:22:03 controller1 daemon.info init: starting pid 3918, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Mar 14 16:22:03 controller1 daemon.info init: starting pid 3919, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Mar 14 16:22:03 controller1 daemon.info init: starting pid 3922, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Mar 14 16:22:03 controller1 daemon.info init: starting pid 3925, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Mar 14 16:22:03 controller1 daemon.info init: starting pid 3928, tty '/dev/tty5': '/sbin/getty 38400 tty5'
+Mar 14 16:22:03 controller1 daemon.info init: starting pid 3931, tty '/dev/tty6': '/sbin/getty 38400 tty6'
+Mar 14 16:22:10 controller1 auth.info login[3934]: root login on 'tty1'
+Mar 14 16:27:54 controller1 auth.err passwd: password for admin changed by root
+Mar 14 16:29:35 controller1 auth.info sshd[3948]: Accepted password for admin from 192.168.152.151 port 32912 ssh2
+Mar 14 16:29:43 controller1 auth.notice su: + pts/0 admin:root
+Mar 14 16:30:00 controller1 cron.info crond[3882]: USER root pid 3953 cmd run-parts /etc/periodic/15min
+Mar 14 16:31:29 controller1 auth.err passwd: password for sensor01 changed by root
+Mar 14 16:31:44 controller1 auth.err passwd: password for sensor02 changed by root
+Mar 14 16:32:12 controller1 auth.err passwd: password for sensor03 changed by root
+Mar 14 16:32:24 controller1 auth.err passwd: password for sensor04 changed by root
+Mar 14 16:32:33 controller1 auth.err passwd: password for sensor05 changed by root
+Mar 14 16:32:41 controller1 auth.err passwd: password for sensor06 changed by root
+Mar 14 16:32:52 controller1 auth.err passwd: password for sensor07 changed by root
+Mar 14 16:33:00 controller1 auth.err passwd: password for sensor08 changed by root
+Mar 14 16:33:10 controller1 auth.err passwd: password for sensor09 changed by root
+Mar 14 16:45:00 controller1 cron.info crond[3882]: USER root pid 3996 cmd run-parts /etc/periodic/15min
+Mar 14 17:00:00 controller1 cron.info crond[3882]: USER root pid 4006 cmd run-parts /etc/periodic/15min
+Mar 14 17:00:00 controller1 cron.info crond[3882]: USER root pid 4007 cmd run-parts /etc/periodic/hourly
+Mar 14 17:15:00 controller1 cron.info crond[3882]: USER root pid 4029 cmd run-parts /etc/periodic/15min
+Mar 14 17:30:00 controller1 cron.info crond[3882]: USER root pid 4040 cmd run-parts /etc/periodic/15min
+Mar 14 17:45:00 controller1 cron.info crond[3882]: USER root pid 4182 cmd run-parts /etc/periodic/15min
+Oct  1 18:00:00 controller1 kern.alert kernel: [ 5282.629250] grsec: From 192.168.152.151: time set by /bin/busybox[date:4204] uid/euid:0/0 gid/egid:0/0, parent /bin/busybox[ash:3952] uid/euid:0/0 gid/egid:0/0
+Oct  1 18:01:45 controller1 auth.notice su: + pts/0 root:sensor00
+Oct  1 18:03:10 controller1 auth.notice su: + pts/0 root:sensor01
+Oct  1 18:03:29 controller1 auth.notice su: + pts/0 root:sensor02
+Oct  1 18:09:10 controller1 auth.notice su: + pts/0 root:sensor03
+Oct  1 18:09:37 controller1 auth.notice su: + pts/0 root:sensor04
+Oct  1 18:10:00 controller1 auth.notice su: + pts/0 root:sensor05
+Oct  1 18:10:12 controller1 auth.notice su: + pts/0 root:sensor06
+Oct  1 18:10:36 controller1 auth.notice su: + pts/0 root:sensor07
+Oct  1 18:10:57 controller1 auth.notice su: + pts/0 root:sensor08
+Oct  1 18:11:13 controller1 auth.notice su: + pts/0 root:sensor09
+Oct  1 18:15:00 controller1 cron.info crond[3882]: USER root pid 4427 cmd run-parts /etc/periodic/15min
+Oct  1 18:30:00 controller1 cron.info crond[3882]: USER root pid 4437 cmd run-parts /etc/periodic/15min
+Oct  1 18:45:00 controller1 cron.info crond[3882]: USER root pid 4447 cmd run-parts /etc/periodic/15min
+Oct  1 19:00:00 controller1 cron.info crond[3882]: USER root pid 4457 cmd run-parts /etc/periodic/15min
+Oct  1 19:00:00 controller1 cron.info crond[3882]: USER root pid 4458 cmd run-parts /etc/periodic/hourly
+Oct  1 19:15:00 controller1 cron.info crond[3882]: USER root pid 4469 cmd run-parts /etc/periodic/15min
+Oct  1 19:30:00 controller1 cron.info crond[3882]: USER root pid 4479 cmd run-parts /etc/periodic/15min
+Oct  1 19:45:00 controller1 cron.info crond[3882]: USER root pid 4489 cmd run-parts /etc/periodic/15min
+Oct  1 20:00:00 controller1 cron.info crond[3882]: USER root pid 4499 cmd run-parts /etc/periodic/15min
+Oct  1 20:00:00 controller1 cron.info crond[3882]: USER root pid 4500 cmd run-parts /etc/periodic/hourly
+Oct  1 20:15:00 controller1 cron.info crond[3882]: USER root pid 4511 cmd run-parts /etc/periodic/15min
+Oct  1 20:30:00 controller1 cron.info crond[3882]: USER root pid 4521 cmd run-parts /etc/periodic/15min
+Oct  1 20:45:00 controller1 cron.info crond[3882]: USER root pid 4531 cmd run-parts /etc/periodic/15min
+Oct  1 21:00:00 controller1 cron.info crond[3882]: USER root pid 4541 cmd run-parts /etc/periodic/15min
+Oct  1 21:00:00 controller1 cron.info crond[3882]: USER root pid 4542 cmd run-parts /etc/periodic/hourly
+Oct  1 21:13:51 controller1 kern.info kernel: [16914.610972] e1000: eth0 NIC Link is Down
+Oct  1 21:14:00 controller1 kern.info kernel: [16923.140470] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Oct  1 21:14:04 controller1 kern.info kernel: [16927.406835] e1000: eth0 NIC Link is Down
+Oct  1 21:14:09 controller1 kern.info kernel: [16931.673851] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Oct  1 21:14:19 controller1 kern.info kernel: [16942.339471] e1000: eth0 NIC Link is Down
+Oct  1 21:14:23 controller1 kern.info kernel: [16946.607227] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Oct  1 21:15:00 controller1 cron.info crond[3882]: USER root pid 4553 cmd run-parts /etc/periodic/15min
+Oct  1 21:30:00 controller1 cron.info crond[3882]: USER root pid 4563 cmd run-parts /etc/periodic/15min
+Oct  1 21:45:00 controller1 cron.info crond[3882]: USER root pid 4573 cmd run-parts /etc/periodic/15min
+Oct  1 22:00:00 controller1 cron.info crond[3882]: USER root pid 4583 cmd run-parts /etc/periodic/15min
+Oct  1 22:00:00 controller1 cron.info crond[3882]: USER root pid 4584 cmd run-parts /etc/periodic/hourly
+Oct  1 22:15:00 controller1 cron.info crond[3882]: USER root pid 4595 cmd run-parts /etc/periodic/15min
+Oct  1 22:30:00 controller1 cron.info crond[3882]: USER root pid 4605 cmd run-parts /etc/periodic/15min
+Oct  1 22:45:00 controller1 cron.info crond[3882]: USER root pid 4615 cmd run-parts /etc/periodic/15min
+Oct  1 23:00:00 controller1 cron.info crond[3882]: USER root pid 4625 cmd run-parts /etc/periodic/15min
+Oct  1 23:00:00 controller1 cron.info crond[3882]: USER root pid 4626 cmd run-parts /etc/periodic/hourly
+Oct  1 23:15:00 controller1 cron.info crond[3882]: USER root pid 4637 cmd run-parts /etc/periodic/15min
+Oct  1 23:30:00 controller1 cron.info crond[3882]: USER root pid 4647 cmd run-parts /etc/periodic/15min
+Oct  1 23:45:00 controller1 cron.info crond[3882]: USER root pid 4657 cmd run-parts /etc/periodic/15min
+Oct  2 00:00:00 controller1 cron.info crond[3882]: USER root pid 4667 cmd run-parts /etc/periodic/15min
+Oct  2 00:00:00 controller1 cron.info crond[3882]: USER root pid 4668 cmd run-parts /etc/periodic/hourly
+Oct  2 00:15:00 controller1 cron.info crond[3882]: USER root pid 4679 cmd run-parts /etc/periodic/15min
+Oct  2 00:30:00 controller1 cron.info crond[3882]: USER root pid 4689 cmd run-parts /etc/periodic/15min
+Oct  2 00:45:00 controller1 cron.info crond[3882]: USER root pid 4699 cmd run-parts /etc/periodic/15min
+Oct  2 00:48:56 controller1 kern.info kernel: [29819.141633] e1000: eth0 NIC Link is Down
+Oct  2 00:49:00 controller1 kern.info kernel: [29823.419468] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Oct  2 00:49:05 controller1 kern.info kernel: [29828.128837] e1000: eth0 NIC Link is Down
+Oct  2 00:49:09 controller1 kern.info kernel: [29832.379385] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Oct  2 00:49:14 controller1 kern.info kernel: [29836.632780] e1000: eth0 NIC Link is Down
+Oct  2 00:49:20 controller1 kern.info kernel: [29843.039726] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Oct  2 01:00:00 controller1 cron.info crond[3882]: USER root pid 4709 cmd run-parts /etc/periodic/15min
+Oct  2 01:00:00 controller1 cron.info crond[3882]: USER root pid 4710 cmd run-parts /etc/periodic/hourly
+Oct 10 14:30:00 controller1 kern.alert kernel: [31377.022462] grsec: time set by /bin/busybox[date:4725] uid/euid:0/0 gid/egid:0/0, parent /bin/busybox[ash:3934] uid/euid:0/0 gid/egid:0/0
+Oct 10 14:33:22 controller1 auth.info sshd[4735]: Invalid user 666666 from 192.168.152.151 port 33028
+Oct 10 14:33:22 controller1 auth.info sshd[4735]: Received disconnect from 192.168.152.151 port 33028:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4735]: Disconnected from invalid user 666666 192.168.152.151 port 33028 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4737]: Invalid user 666666 from 192.168.152.151 port 33030
+Oct 10 14:33:22 controller1 auth.err sshd[4737]: error: Could not get shadow information for NOUSER
+Oct 10 14:33:22 controller1 auth.info sshd[4737]: Failed password for invalid user 666666 from 192.168.152.151 port 33030 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4746]: Failed password for admin from 192.168.152.151 port 33050 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4737]: Received disconnect from 192.168.152.151 port 33030:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4737]: Disconnected from invalid user 666666 192.168.152.151 port 33030 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4748]: Failed password for admin from 192.168.152.151 port 33054 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4748]: Received disconnect from 192.168.152.151 port 33054:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4748]: Disconnected from authenticating user admin 192.168.152.151 port 33054 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4744]: Failed password for admin from 192.168.152.151 port 33046 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4744]: Received disconnect from 192.168.152.151 port 33046:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4739]: Invalid user 888888 from 192.168.152.151 port 33032
+Oct 10 14:33:22 controller1 auth.info sshd[4744]: Disconnected from authenticating user admin 192.168.152.151 port 33046 [preauth]
+Oct 10 14:33:22 controller1 auth.err sshd[4739]: error: Could not get shadow information for NOUSER
+Oct 10 14:33:22 controller1 auth.info sshd[4745]: Failed password for admin from 192.168.152.151 port 33048 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4745]: Received disconnect from 192.168.152.151 port 33048:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4745]: Disconnected from authenticating user admin 192.168.152.151 port 33048 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4751]: Failed password for admin from 192.168.152.151 port 33060 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4742]: Failed password for admin from 192.168.152.151 port 33042 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4751]: Received disconnect from 192.168.152.151 port 33060:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4751]: Disconnected from authenticating user admin 192.168.152.151 port 33060 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4746]: Received disconnect from 192.168.152.151 port 33050:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4746]: Disconnected from authenticating user admin 192.168.152.151 port 33050 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4743]: Failed password for admin from 192.168.152.151 port 33044 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4749]: Failed password for admin from 192.168.152.151 port 33056 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4743]: Received disconnect from 192.168.152.151 port 33044:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4743]: Disconnected from authenticating user admin 192.168.152.151 port 33044 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4747]: Failed password for admin from 192.168.152.151 port 33052 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4747]: Received disconnect from 192.168.152.151 port 33052:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4747]: Disconnected from authenticating user admin 192.168.152.151 port 33052 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4749]: Received disconnect from 192.168.152.151 port 33056:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4749]: Disconnected from authenticating user admin 192.168.152.151 port 33056 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4738]: Failed password for admin from 192.168.152.151 port 33034 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4750]: Failed password for admin from 192.168.152.151 port 33058 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4750]: Received disconnect from 192.168.152.151 port 33058:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4750]: Disconnected from authenticating user admin 192.168.152.151 port 33058 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4741]: Failed password for admin from 192.168.152.151 port 33040 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4739]: Failed password for invalid user 888888 from 192.168.152.151 port 33032 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4741]: Received disconnect from 192.168.152.151 port 33040:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4741]: Disconnected from authenticating user admin 192.168.152.151 port 33040 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4742]: Received disconnect from 192.168.152.151 port 33042:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4742]: Disconnected from authenticating user admin 192.168.152.151 port 33042 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4738]: Received disconnect from 192.168.152.151 port 33034:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4738]: Disconnected from authenticating user admin 192.168.152.151 port 33034 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4739]: Received disconnect from 192.168.152.151 port 33032:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4739]: Disconnected from invalid user 888888 192.168.152.151 port 33032 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4768]: Invalid user administrator from 192.168.152.151 port 33066
+Oct 10 14:33:22 controller1 auth.info sshd[4770]: Invalid user Administrator from 192.168.152.151 port 33068
+Oct 10 14:33:22 controller1 auth.err sshd[4768]: error: Could not get shadow information for NOUSER
+Oct 10 14:33:22 controller1 auth.info sshd[4740]: Failed password for admin from 192.168.152.151 port 33038 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4740]: Received disconnect from 192.168.152.151 port 33038:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4740]: Disconnected from authenticating user admin 192.168.152.151 port 33038 [preauth]
+Oct 10 14:33:22 controller1 auth.err sshd[4770]: error: Could not get shadow information for NOUSER
+Oct 10 14:33:22 controller1 auth.info sshd[4767]: Invalid user admin1 from 192.168.152.151 port 33064
+Oct 10 14:33:22 controller1 auth.err sshd[4767]: error: Could not get shadow information for NOUSER
+Oct 10 14:33:22 controller1 auth.info sshd[4773]: User guest not allowed because account is locked
+Oct 10 14:33:22 controller1 auth.err sshd[4773]: error: Could not get shadow information for NOUSER
+Oct 10 14:33:22 controller1 auth.info sshd[4778]: Failed password for root from 192.168.152.151 port 33080 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4768]: Failed password for invalid user administrator from 192.168.152.151 port 33066 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4770]: Failed password for invalid user Administrator from 192.168.152.151 port 33068 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4767]: Failed password for invalid user admin1 from 192.168.152.151 port 33064 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4768]: Received disconnect from 192.168.152.151 port 33066:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4768]: Disconnected from invalid user administrator 192.168.152.151 port 33066 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4767]: Received disconnect from 192.168.152.151 port 33064:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4767]: Disconnected from invalid user admin1 192.168.152.151 port 33064 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4770]: Received disconnect from 192.168.152.151 port 33068:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4770]: Disconnected from invalid user Administrator 192.168.152.151 port 33068 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4777]: Failed password for root from 192.168.152.151 port 33078 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4779]: Failed password for root from 192.168.152.151 port 33082 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4775]: Failed password for root from 192.168.152.151 port 33076 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4783]: Failed password for root from 192.168.152.151 port 33084 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4787]: Failed password for root from 192.168.152.151 port 33090 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4773]: Failed password for invalid user guest from 192.168.152.151 port 33070 ssh2
+Oct 10 14:33:22 controller1 auth.info sshd[4773]: Received disconnect from 192.168.152.151 port 33070:11: Bye Bye [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4773]: Disconnected from invalid user guest 192.168.152.151 port 33070 [preauth]
+Oct 10 14:33:22 controller1 auth.info sshd[4785]: Failed password for root from 192.168.152.151 port 33086 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4779]: Failed password for root from 192.168.152.151 port 33082 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4790]: Failed password for root from 192.168.152.151 port 33098 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4777]: Failed password for root from 192.168.152.151 port 33078 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4788]: Failed password for root from 192.168.152.151 port 33094 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4778]: Failed password for root from 192.168.152.151 port 33080 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4783]: Failed password for root from 192.168.152.151 port 33084 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4792]: Failed password for root from 192.168.152.151 port 33102 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4789]: Failed password for root from 192.168.152.151 port 33092 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4775]: Failed password for root from 192.168.152.151 port 33076 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4785]: Failed password for root from 192.168.152.151 port 33086 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4797]: Failed password for root from 192.168.152.151 port 33106 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4801]: Failed password for root from 192.168.152.151 port 33114 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4787]: Failed password for root from 192.168.152.151 port 33090 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4787]: Received disconnect from 192.168.152.151 port 33090:11: Bye Bye [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4787]: Disconnected from authenticating user root 192.168.152.151 port 33090 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4790]: Failed password for root from 192.168.152.151 port 33098 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4788]: Failed password for root from 192.168.152.151 port 33094 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4790]: Received disconnect from 192.168.152.151 port 33098:11: Bye Bye [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4778]: Failed password for root from 192.168.152.151 port 33080 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4790]: Disconnected from authenticating user root 192.168.152.151 port 33098 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4777]: Failed password for root from 192.168.152.151 port 33078 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4789]: Failed password for root from 192.168.152.151 port 33092 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4798]: Failed password for root from 192.168.152.151 port 33108 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4779]: Failed password for root from 192.168.152.151 port 33082 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4803]: Failed password for root from 192.168.152.151 port 33116 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4783]: Failed password for root from 192.168.152.151 port 33084 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4775]: Failed password for root from 192.168.152.151 port 33076 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4792]: Failed password for root from 192.168.152.151 port 33102 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4797]: Received disconnect from 192.168.152.151 port 33106:11: Bye Bye [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4797]: Disconnected from authenticating user root 192.168.152.151 port 33106 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4788]: Received disconnect from 192.168.152.151 port 33094:11: Bye Bye [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4788]: Disconnected from authenticating user root 192.168.152.151 port 33094 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4779]: Connection closed by authenticating user root 192.168.152.151 port 33082 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4798]: Connection closed by authenticating user root 192.168.152.151 port 33108 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4803]: Received disconnect from 192.168.152.151 port 33116:11: Bye Bye [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4803]: Disconnected from authenticating user root 192.168.152.151 port 33116 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4777]: Connection closed by authenticating user root 192.168.152.151 port 33078 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4778]: Received disconnect from 192.168.152.151 port 33080:11: Bye Bye [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4778]: Disconnected from authenticating user root 192.168.152.151 port 33080 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4801]: Received disconnect from 192.168.152.151 port 33114:11: Bye Bye [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4801]: Disconnected from authenticating user root 192.168.152.151 port 33114 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4789]: Connection closed by authenticating user root 192.168.152.151 port 33092 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4783]: Connection closed by authenticating user root 192.168.152.151 port 33084 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4775]: Connection closed by authenticating user root 192.168.152.151 port 33076 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4792]: Connection closed by authenticating user root 192.168.152.151 port 33102 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4785]: Failed password for root from 192.168.152.151 port 33086 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4785]: Connection closed by authenticating user root 192.168.152.151 port 33086 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4805]: Failed password for root from 192.168.152.151 port 33120 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4805]: Connection closed by authenticating user root 192.168.152.151 port 33120 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4807]: Invalid user service from 192.168.152.151 port 33122
+Oct 10 14:33:23 controller1 auth.err sshd[4807]: error: Could not get shadow information for NOUSER
+Oct 10 14:33:23 controller1 auth.info sshd[4807]: Failed password for invalid user service from 192.168.152.151 port 33122 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4807]: Connection closed by invalid user service 192.168.152.151 port 33122 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4810]: Invalid user user from 192.168.152.151 port 33128
+Oct 10 14:33:23 controller1 auth.info sshd[4813]: Invalid user support from 192.168.152.151 port 33134
+Oct 10 14:33:23 controller1 auth.err sshd[4810]: error: Could not get shadow information for NOUSER
+Oct 10 14:33:23 controller1 auth.info sshd[4809]: Invalid user tech from 192.168.152.151 port 33126
+Oct 10 14:33:23 controller1 auth.info sshd[4811]: Invalid user ubnt from 192.168.152.151 port 33130
+Oct 10 14:33:23 controller1 auth.err sshd[4813]: error: Could not get shadow information for NOUSER
+Oct 10 14:33:23 controller1 auth.err sshd[4809]: error: Could not get shadow information for NOUSER
+Oct 10 14:33:23 controller1 auth.err sshd[4811]: error: Could not get shadow information for NOUSER
+Oct 10 14:33:23 controller1 auth.info sshd[4810]: Failed password for invalid user user from 192.168.152.151 port 33128 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4812]: Failed password for admin from 192.168.152.151 port 33132 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4809]: Failed password for invalid user tech from 192.168.152.151 port 33126 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4811]: Failed password for invalid user ubnt from 192.168.152.151 port 33130 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4812]: Connection closed by authenticating user admin 192.168.152.151 port 33132 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4813]: Failed password for invalid user support from 192.168.152.151 port 33134 ssh2
+Oct 10 14:33:23 controller1 auth.info sshd[4809]: Connection closed by invalid user tech 192.168.152.151 port 33126 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4811]: Connection closed by invalid user ubnt 192.168.152.151 port 33130 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4810]: Connection closed by invalid user user 192.168.152.151 port 33128 [preauth]
+Oct 10 14:33:23 controller1 auth.info sshd[4813]: Connection closed by invalid user support 192.168.152.151 port 33134 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4820]: Invalid user 666666 from 192.168.152.151 port 33136
+Oct 10 14:36:13 controller1 auth.info sshd[4820]: Received disconnect from 192.168.152.151 port 33136:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4820]: Disconnected from invalid user 666666 192.168.152.151 port 33136 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4824]: Invalid user 888888 from 192.168.152.151 port 33142
+Oct 10 14:36:13 controller1 auth.err sshd[4824]: error: Could not get shadow information for NOUSER
+Oct 10 14:36:13 controller1 auth.info sshd[4823]: Invalid user 666666 from 192.168.152.151 port 33140
+Oct 10 14:36:13 controller1 auth.err sshd[4823]: error: Could not get shadow information for NOUSER
+Oct 10 14:36:13 controller1 auth.info sshd[4830]: Failed password for admin from 192.168.152.151 port 33156 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4824]: Failed password for invalid user 888888 from 192.168.152.151 port 33142 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4834]: Failed password for admin from 192.168.152.151 port 33166 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4833]: Failed password for admin from 192.168.152.151 port 33164 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4830]: Received disconnect from 192.168.152.151 port 33156:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4830]: Disconnected from authenticating user admin 192.168.152.151 port 33156 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4829]: Failed password for admin from 192.168.152.151 port 33154 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4829]: Received disconnect from 192.168.152.151 port 33154:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4829]: Disconnected from authenticating user admin 192.168.152.151 port 33154 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4822]: Failed password for admin from 192.168.152.151 port 33138 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4831]: Failed password for admin from 192.168.152.151 port 33158 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4831]: Received disconnect from 192.168.152.151 port 33158:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4831]: Disconnected from authenticating user admin 192.168.152.151 port 33158 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4826]: Failed password for admin from 192.168.152.151 port 33148 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4825]: Failed password for admin from 192.168.152.151 port 33146 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4835]: Failed password for admin from 192.168.152.151 port 33168 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4832]: Failed password for admin from 192.168.152.151 port 33162 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4823]: Failed password for invalid user 666666 from 192.168.152.151 port 33140 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4828]: Failed password for admin from 192.168.152.151 port 33152 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4827]: Failed password for admin from 192.168.152.151 port 33150 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4834]: Accepted password for admin from 192.168.152.151 port 33166 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4833]: Received disconnect from 192.168.152.151 port 33164:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4833]: Disconnected from authenticating user admin 192.168.152.151 port 33164 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4825]: Received disconnect from 192.168.152.151 port 33146:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4825]: Disconnected from authenticating user admin 192.168.152.151 port 33146 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4826]: Received disconnect from 192.168.152.151 port 33148:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4826]: Disconnected from authenticating user admin 192.168.152.151 port 33148 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4832]: Received disconnect from 192.168.152.151 port 33162:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4832]: Disconnected from authenticating user admin 192.168.152.151 port 33162 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4824]: Received disconnect from 192.168.152.151 port 33142:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4824]: Disconnected from invalid user 888888 192.168.152.151 port 33142 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4823]: Received disconnect from 192.168.152.151 port 33140:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4823]: Disconnected from invalid user 666666 192.168.152.151 port 33140 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4828]: Received disconnect from 192.168.152.151 port 33152:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4828]: Disconnected from authenticating user admin 192.168.152.151 port 33152 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4827]: Received disconnect from 192.168.152.151 port 33150:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4827]: Disconnected from authenticating user admin 192.168.152.151 port 33150 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4822]: Received disconnect from 192.168.152.151 port 33138:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4822]: Disconnected from authenticating user admin 192.168.152.151 port 33138 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4835]: Received disconnect from 192.168.152.151 port 33168:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4835]: Disconnected from authenticating user admin 192.168.152.151 port 33168 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4856]: Received disconnect from 192.168.152.151 port 33166:11: Bye Bye
+Oct 10 14:36:13 controller1 auth.info sshd[4856]: Disconnected from user admin 192.168.152.151 port 33166
+Oct 10 14:36:13 controller1 auth.info sshd[4851]: User guest not allowed because account is locked
+Oct 10 14:36:13 controller1 auth.err sshd[4851]: error: Could not get shadow information for NOUSER
+Oct 10 14:36:13 controller1 auth.info sshd[4854]: User guest not allowed because account is locked
+Oct 10 14:36:13 controller1 auth.err sshd[4854]: error: Could not get shadow information for NOUSER
+Oct 10 14:36:13 controller1 auth.info sshd[4850]: Invalid user admin1 from 192.168.152.151 port 33172
+Oct 10 14:36:13 controller1 auth.err sshd[4850]: error: Could not get shadow information for NOUSER
+Oct 10 14:36:13 controller1 auth.info sshd[4851]: Failed password for invalid user guest from 192.168.152.151 port 33174 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4850]: Failed password for invalid user admin1 from 192.168.152.151 port 33172 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4851]: Received disconnect from 192.168.152.151 port 33174:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4851]: Disconnected from invalid user guest 192.168.152.151 port 33174 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4854]: Failed password for invalid user guest from 192.168.152.151 port 33180 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4861]: Failed password for root from 192.168.152.151 port 33202 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4854]: Received disconnect from 192.168.152.151 port 33180:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4854]: Disconnected from invalid user guest 192.168.152.151 port 33180 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4850]: Received disconnect from 192.168.152.151 port 33172:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4850]: Disconnected from invalid user admin1 192.168.152.151 port 33172 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4859]: Failed password for root from 192.168.152.151 port 33194 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4872]: Failed password for root from 192.168.152.151 port 33224 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4871]: Failed password for root from 192.168.152.151 port 33222 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4869]: Failed password for root from 192.168.152.151 port 33218 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4860]: Failed password for root from 192.168.152.151 port 33198 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4857]: Failed password for root from 192.168.152.151 port 33182 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4862]: Failed password for root from 192.168.152.151 port 33206 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4870]: Failed password for root from 192.168.152.151 port 33220 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4858]: Failed password for root from 192.168.152.151 port 33186 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4864]: Failed password for root from 192.168.152.151 port 33210 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4859]: Failed password for root from 192.168.152.151 port 33194 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4867]: Failed password for root from 192.168.152.151 port 33214 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4872]: Failed password for root from 192.168.152.151 port 33224 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4876]: Failed password for root from 192.168.152.151 port 33228 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4871]: Failed password for root from 192.168.152.151 port 33222 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4860]: Failed password for root from 192.168.152.151 port 33198 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4861]: Failed password for root from 192.168.152.151 port 33202 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4885]: Failed password for root from 192.168.152.151 port 33232 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4862]: Failed password for root from 192.168.152.151 port 33206 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4862]: Received disconnect from 192.168.152.151 port 33206:11: Bye Bye [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4862]: Disconnected from authenticating user root 192.168.152.151 port 33206 [preauth]
+Oct 10 14:36:13 controller1 auth.info sshd[4857]: Failed password for root from 192.168.152.151 port 33182 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4869]: Failed password for root from 192.168.152.151 port 33218 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4864]: Failed password for root from 192.168.152.151 port 33210 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4870]: Failed password for root from 192.168.152.151 port 33220 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4859]: Failed password for root from 192.168.152.151 port 33194 ssh2
+Oct 10 14:36:13 controller1 auth.info sshd[4883]: Failed password for root from 192.168.152.151 port 33230 ssh2
+Oct 10 14:36:14 controller1 auth.info sshd[4857]: Received disconnect from 192.168.152.151 port 33182:11: Bye Bye [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4857]: Disconnected from authenticating user root 192.168.152.151 port 33182 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4869]: Received disconnect from 192.168.152.151 port 33218:11: Bye Bye [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4869]: Disconnected from authenticating user root 192.168.152.151 port 33218 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4870]: Received disconnect from 192.168.152.151 port 33220:11: Bye Bye [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4870]: Disconnected from authenticating user root 192.168.152.151 port 33220 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4885]: Received disconnect from 192.168.152.151 port 33232:11: Bye Bye [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4885]: Disconnected from authenticating user root 192.168.152.151 port 33232 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4859]: Connection closed by authenticating user root 192.168.152.151 port 33194 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4864]: Received disconnect from 192.168.152.151 port 33210:11: Bye Bye [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4883]: Connection closed by authenticating user root 192.168.152.151 port 33230 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4864]: Disconnected from authenticating user root 192.168.152.151 port 33210 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4858]: Failed password for root from 192.168.152.151 port 33186 ssh2
+Oct 10 14:36:14 controller1 auth.info sshd[4867]: Failed password for root from 192.168.152.151 port 33214 ssh2
+Oct 10 14:36:14 controller1 auth.info sshd[4872]: Failed password for root from 192.168.152.151 port 33224 ssh2
+Oct 10 14:36:14 controller1 auth.info sshd[4861]: Failed password for root from 192.168.152.151 port 33202 ssh2
+Oct 10 14:36:14 controller1 auth.info sshd[4887]: Failed password for root from 192.168.152.151 port 33234 ssh2
+Oct 10 14:36:14 controller1 auth.info sshd[4871]: Failed password for root from 192.168.152.151 port 33222 ssh2
+Oct 10 14:36:14 controller1 auth.info sshd[4876]: Failed password for root from 192.168.152.151 port 33228 ssh2
+Oct 10 14:36:14 controller1 auth.info sshd[4860]: Failed password for root from 192.168.152.151 port 33198 ssh2
+Oct 10 14:36:14 controller1 auth.info sshd[4858]: Connection closed by authenticating user root 192.168.152.151 port 33186 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4871]: Connection closed by authenticating user root 192.168.152.151 port 33222 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4876]: Connection closed by authenticating user root 192.168.152.151 port 33228 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4887]: Connection closed by authenticating user root 192.168.152.151 port 33234 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4860]: Connection closed by authenticating user root 192.168.152.151 port 33198 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4872]: Connection closed by authenticating user root 192.168.152.151 port 33224 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4867]: Connection closed by authenticating user root 192.168.152.151 port 33214 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4861]: Connection closed by authenticating user root 192.168.152.151 port 33202 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4892]: Invalid user user from 192.168.152.151 port 33246
+Oct 10 14:36:14 controller1 auth.err sshd[4892]: error: Could not get shadow information for NOUSER
+Oct 10 14:36:14 controller1 auth.info sshd[4891]: Invalid user tech from 192.168.152.151 port 33244
+Oct 10 14:36:14 controller1 auth.err sshd[4891]: error: Could not get shadow information for NOUSER
+Oct 10 14:36:14 controller1 auth.info sshd[4892]: Failed password for invalid user user from 192.168.152.151 port 33246 ssh2
+Oct 10 14:36:14 controller1 auth.info sshd[4891]: Failed password for invalid user tech from 192.168.152.151 port 33244 ssh2
+Oct 10 14:36:14 controller1 auth.info sshd[4891]: Connection closed by invalid user tech 192.168.152.151 port 33244 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4892]: Connection closed by invalid user user 192.168.152.151 port 33246 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4889]: Invalid user support from 192.168.152.151 port 33238
+Oct 10 14:36:14 controller1 auth.err sshd[4889]: error: Could not get shadow information for NOUSER
+Oct 10 14:36:14 controller1 auth.info sshd[4893]: Invalid user supervisor from 192.168.152.151 port 33248
+Oct 10 14:36:14 controller1 auth.info sshd[4890]: Invalid user ubnt from 192.168.152.151 port 33240
+Oct 10 14:36:14 controller1 auth.err sshd[4893]: error: Could not get shadow information for NOUSER
+Oct 10 14:36:14 controller1 auth.err sshd[4890]: error: Could not get shadow information for NOUSER
+Oct 10 14:36:14 controller1 auth.info sshd[4893]: Failed password for invalid user supervisor from 192.168.152.151 port 33248 ssh2
+Oct 10 14:36:14 controller1 auth.info sshd[4889]: Failed password for invalid user support from 192.168.152.151 port 33238 ssh2
+Oct 10 14:36:14 controller1 auth.info sshd[4890]: Failed password for invalid user ubnt from 192.168.152.151 port 33240 ssh2
+Oct 10 14:36:14 controller1 auth.info sshd[4889]: Connection closed by invalid user support 192.168.152.151 port 33238 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4890]: Connection closed by invalid user ubnt 192.168.152.151 port 33240 [preauth]
+Oct 10 14:36:14 controller1 auth.info sshd[4893]: Connection closed by invalid user supervisor 192.168.152.151 port 33248 [preauth]
+Oct 10 14:45:00 controller1 cron.info crond[3882]: USER root pid 4900 cmd run-parts /etc/periodic/15min
+Oct 10 14:48:30 controller1 auth.info sshd[4910]: Accepted password for admin from 192.168.152.151 port 33258 ssh2
+Oct 10 15:00:00 controller1 cron.info crond[3882]: USER root pid 4945 cmd run-parts /etc/periodic/15min
+Oct 10 15:00:00 controller1 cron.info crond[3882]: USER root pid 4946 cmd run-parts /etc/periodic/hourly
+Oct 11 15:00:00 controller1 kern.alert kernel: [33219.827691] grsec: time set by /bin/busybox[date:4950] uid/euid:0/0 gid/egid:0/0, parent /bin/busybox[ash:3934] uid/euid:0/0 gid/egid:0/0
+Oct 11 15:00:17 controller1 cron.err crond[3882]: time disparity of 1440 minutes detected
+Oct 11 15:09:47 controller1 daemon.info init: starting pid 4988, tty '': '/sbin/openrc shutdown'
+Oct 11 15:09:47 controller1 auth.info sshd[3915]: Received signal 15; terminating.
+Oct 11 15:09:47 controller1 syslog.info syslogd exiting
+Oct 11 15:10:12 controller1 syslog.info syslogd started: BusyBox v1.26.2
+Oct 11 15:10:12 controller1 daemon.info init: starting pid 3721, tty '': '/sbin/openrc default'
+Oct 11 15:10:12 controller1 cron.info crond[3767]: crond (busybox 1.26.2) started, log level 8
+Oct 11 15:10:12 controller1 kern.info kernel: [   16.382095] NET: Registered protocol family 10
+Oct 11 15:10:12 controller1 auth.info sshd[3798]: Server listening on 0.0.0.0 port 22.
+Oct 11 15:10:12 controller1 auth.info sshd[3798]: Server listening on :: port 22.
+Oct 11 15:10:12 controller1 daemon.info init: starting pid 3802, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Oct 11 15:10:12 controller1 daemon.info init: starting pid 3803, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Oct 11 15:10:12 controller1 daemon.info init: starting pid 3806, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Oct 11 15:10:12 controller1 daemon.info init: starting pid 3809, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Oct 11 15:10:12 controller1 daemon.info init: starting pid 3812, tty '/dev/tty5': '/sbin/getty 38400 tty5'
+Oct 11 15:10:12 controller1 daemon.info init: starting pid 3815, tty '/dev/tty6': '/sbin/getty 38400 tty6'
+Oct 11 15:10:23 controller1 auth.info login[3818]: root login on 'tty1'
+Oct 11 16:18:49 controller1 daemon.info init: starting pid 3697, tty '': '/sbin/openrc default'
+Oct 11 16:18:49 controller1 cron.info crond[3741]: crond (busybox 1.26.2) started, log level 8
+Oct 11 16:18:49 controller1 kern.info kernel: [   16.334077] NET: Registered protocol family 10
+Oct 11 16:18:49 controller1 auth.info sshd[3774]: Server listening on 0.0.0.0 port 22.
+Oct 11 16:18:49 controller1 auth.info sshd[3774]: Server listening on :: port 22.
+Oct 11 16:18:49 controller1 daemon.info init: starting pid 3777, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Oct 11 16:18:49 controller1 daemon.info init: starting pid 3778, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Oct 11 16:18:49 controller1 daemon.info init: starting pid 3781, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Oct 11 16:18:49 controller1 daemon.info init: starting pid 3784, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Oct 11 16:18:49 controller1 daemon.info init: starting pid 3787, tty '/dev/tty5': '/sbin/getty 38400 tty5'
+Oct 11 16:18:49 controller1 daemon.info init: starting pid 3790, tty '/dev/tty6': '/sbin/getty 38400 tty6'
+Oct 11 16:30:00 controller1 cron.info crond[3741]: USER root pid 3793 cmd run-parts /etc/periodic/15min
+Oct 11 16:45:00 controller1 cron.info crond[3741]: USER root pid 3803 cmd run-parts /etc/periodic/15min
+Oct 11 16:53:16 controller1 kern.info kernel: [ 2083.048301] usb 2-2.1: new full-speed USB device number 4 using uhci_hcd
+Oct 11 16:53:16 controller1 kern.info kernel: [ 2083.485641] usb 2-2.1: New USB device found, idVendor=0e0f, idProduct=0008
+Oct 11 16:53:16 controller1 kern.info kernel: [ 2083.485646] usb 2-2.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 11 16:53:16 controller1 kern.info kernel: [ 2083.485654] usb 2-2.1: Product: Virtual Bluetooth Adapter
+Oct 11 16:53:16 controller1 kern.info kernel: [ 2083.485656] usb 2-2.1: Manufacturer: VMware
+Oct 11 16:53:16 controller1 kern.info kernel: [ 2083.485658] usb 2-2.1: SerialNumber: 000650268328
+Oct 11 16:53:16 controller1 kern.info kernel: [ 2083.545931] Bluetooth: Core ver 2.22
+Oct 11 16:53:16 controller1 kern.info kernel: [ 2083.545965] NET: Registered protocol family 31
+Oct 11 16:53:16 controller1 kern.info kernel: [ 2083.545966] Bluetooth: HCI device and connection manager initialized
+Oct 11 16:53:16 controller1 kern.info kernel: [ 2083.546041] Bluetooth: HCI socket layer initialized
+Oct 11 16:53:16 controller1 kern.info kernel: [ 2083.546048] Bluetooth: L2CAP socket layer initialized
+Oct 11 16:53:16 controller1 kern.info kernel: [ 2083.546050] Bluetooth: SCO socket layer initialized
+Oct 11 16:53:16 controller1 kern.info kernel: [ 2083.556866] usbcore: registered new interface driver btusb
+Oct 11 16:53:46 controller1 auth.info login[3838]: root login on 'tty1'
+Oct 11 17:00:00 controller1 cron.info crond[3741]: USER root pid 3844 cmd run-parts /etc/periodic/15min
+Oct 11 17:00:00 controller1 cron.info crond[3741]: USER root pid 3845 cmd run-parts /etc/periodic/hourly
+Oct 11 17:02:17 controller1 kern.info kernel: [ 2624.428921] usb 1-1: new high-speed USB device number 2 using ehci-pci
+Oct 11 17:02:17 controller1 kern.info kernel: [ 2624.746389] usb 1-1: New USB device found, idVendor=03f0, idProduct=5a07
+Oct 11 17:02:17 controller1 kern.info kernel: [ 2624.746400] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 11 17:02:17 controller1 kern.info kernel: [ 2624.746404] usb 1-1: Product: v220w
+Oct 11 17:02:17 controller1 kern.info kernel: [ 2624.746408] usb 1-1: Manufacturer: HP
+Oct 11 17:02:17 controller1 kern.info kernel: [ 2624.746411] usb 1-1: SerialNumber: 00187D0F070D5BE2D229C816
+Oct 11 17:02:17 controller1 kern.info kernel: [ 2624.750667] usb-storage 1-1:1.0: USB Mass Storage device detected
+Oct 11 17:02:17 controller1 kern.info kernel: [ 2624.759716] scsi host3: usb-storage 1-1:1.0
+Oct 11 17:02:17 controller1 kern.info kernel: [ 2624.786465] usbcore: registered new interface driver uas
+Oct 11 17:02:18 controller1 kern.notice kernel: [ 2625.859853] scsi 3:0:0:0: Direct-Access     hp       v220w            PMAP PQ: 0 ANSI: 6
+Oct 11 17:02:18 controller1 kern.notice kernel: [ 2625.921769] sd 3:0:0:0: [sdb] 60555264 512-byte logical blocks: (31.0 GB/28.9 GiB)
+Oct 11 17:02:19 controller1 kern.notice kernel: [ 2625.969145] sd 3:0:0:0: [sdb] Write Protect is off
+Oct 11 17:02:19 controller1 kern.debug kernel: [ 2625.969157] sd 3:0:0:0: [sdb] Mode Sense: 45 00 00 00
+Oct 11 17:02:19 controller1 kern.notice kernel: [ 2626.016072] sd 3:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+Oct 11 17:02:19 controller1 kern.info kernel: [ 2626.344395]  sdb: sdb1
+Oct 11 17:02:19 controller1 kern.notice kernel: [ 2626.641199] sd 3:0:0:0: [sdb] Attached SCSI removable disk
+Oct 11 17:12:49 controller1 kern.warn kernel: [ 3256.402150] FAT-fs (sdb): utf8 is not a recommended IO charset for FAT filesystems, filesystem will be case sensitive!
+Oct 11 17:13:10 controller1 kern.warn kernel: [ 3277.364851] FAT-fs (sdb): utf8 is not a recommended IO charset for FAT filesystems, filesystem will be case sensitive!
+Oct 11 17:14:18 controller1 kern.warn kernel: [ 3345.769041] FAT-fs (sdb1): utf8 is not a recommended IO charset for FAT filesystems, filesystem will be case sensitive!
+Oct 11 17:14:18 controller1 kern.warn kernel: [ 3345.791914] FAT-fs (sdb1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+Oct 11 17:15:00 controller1 cron.info crond[3741]: USER root pid 3924 cmd run-parts /etc/periodic/15min
+Oct 11 17:27:07 controller1 kern.info kernel: [ 4114.326255] usb 1-1: reset high-speed USB device number 2 using ehci-pci
+Oct 11 17:30:00 controller1 cron.info crond[3741]: USER root pid 3952 cmd run-parts /etc/periodic/15min
+Oct 11 17:31:34 controller1 kern.info kernel: [ 4380.955968] usb 1-1: reset high-speed USB device number 2 using ehci-pci
+Oct 11 17:33:40 controller1 kern.info kernel: [ 4507.022453] usb 1-1: reset high-speed USB device number 2 using ehci-pci
+Oct 11 22:46:44 controller1 syslog.info syslogd started: BusyBox v1.26.2
+Oct 11 22:46:44 controller1 kern.info kernel: [    1.829236] usb 2-1: Manufacturer: VMware
+Oct 11 22:46:44 controller1 kern.info kernel: [    1.879719] EXT4-fs (sda3): recovery complete
+Oct 11 22:46:44 controller1 kern.info kernel: [    1.880192] EXT4-fs (sda3): mounted filesystem with ordered data mode. Opts: (null)
+Oct 11 22:46:44 controller1 kern.info kernel: [    1.946583] usb 2-2: new full-speed USB device number 3 using uhci_hcd
+Oct 11 22:46:44 controller1 kern.info kernel: [    2.077559] usb 2-2: New USB device found, idVendor=0e0f, idProduct=0002
+Oct 11 22:46:44 controller1 kern.info kernel: [    2.077561] usb 2-2: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+Oct 11 22:46:44 controller1 kern.info kernel: [    2.077563] usb 2-2: Product: VMware Virtual USB Hub
+Oct 11 22:46:44 controller1 kern.info kernel: [    2.080364] hub 2-2:1.0: USB hub found
+Oct 11 22:46:44 controller1 kern.info kernel: [    2.080801] hub 2-2:1.0: 7 ports detected
+Oct 11 22:46:44 controller1 kern.info kernel: [    2.145623] ACPI: AC Adapter [ACAD] (on-line)
+Oct 11 22:46:44 controller1 kern.info kernel: [    2.154054] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input2
+Oct 11 22:46:44 controller1 kern.info kernel: [    2.154057] ACPI: Power Button [PWRF]
+Oct 11 22:46:44 controller1 kern.notice kernel: [    2.165143] scsi 2:0:0:0: Direct-Access     hp       v220w            PMAP PQ: 0 ANSI: 6
+Oct 11 22:46:44 controller1 kern.notice kernel: [    2.167168] sd 2:0:0:0: [sdb] 60555264 512-byte logical blocks: (31.0 GB/28.9 GiB)
+Oct 11 22:46:44 controller1 kern.notice kernel: [    2.167993] sd 2:0:0:0: [sdb] Write Protect is off
+Oct 11 22:46:44 controller1 kern.debug kernel: [    2.167996] sd 2:0:0:0: [sdb] Mode Sense: 45 00 00 00
+Oct 11 22:46:44 controller1 kern.info kernel: [    2.168894] Floppy drive(s): fd0 is 1.44M
+Oct 11 22:46:44 controller1 kern.notice kernel: [    2.170157] sd 2:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+Oct 11 22:46:44 controller1 kern.info kernel: [    2.174798]  sdb: sdb1
+Oct 11 22:46:44 controller1 kern.notice kernel: [    2.181261] sd 2:0:0:0: [sdb] Attached SCSI removable disk
+Oct 11 22:46:44 controller1 kern.info kernel: [    5.386628] floppy0: no floppy controllers found
+Oct 11 22:46:44 controller1 kern.info kernel: [    5.386674] work still pending
+Oct 11 22:46:44 controller1 kern.info kernel: [    5.390608] FUJITSU Extended Socket Network Device Driver - version 1.1 - Copyright (c) 2015 FUJITSU LIMITED
+Oct 11 22:46:44 controller1 kern.info kernel: [    5.395175] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 10737418240 ms ovfl timer
+Oct 11 22:46:44 controller1 kern.info kernel: [    5.395177] RAPL PMU: hw unit of domain pp0-core 2^-0 Joules
+Oct 11 22:46:44 controller1 kern.info kernel: [    5.395178] RAPL PMU: hw unit of domain package 2^-0 Joules
+Oct 11 22:46:44 controller1 kern.info kernel: [    5.395178] RAPL PMU: hw unit of domain dram 2^-0 Joules
+Oct 11 22:46:44 controller1 kern.info kernel: [    5.395179] RAPL PMU: hw unit of domain pp1-gpu 2^-0 Joules
+Oct 11 22:46:44 controller1 kern.info kernel: [    5.395180] RAPL PMU: hw unit of domain psys 2^-0 Joules
+Oct 11 22:46:44 controller1 kern.info kernel: [    5.421771] AVX2 version of gcm_enc/dec engaged.
+Oct 11 22:46:44 controller1 kern.info kernel: [    5.421772] AES CTR mode by8 optimization enabled
+Oct 11 22:46:44 controller1 kern.info kernel: [    5.436074] vmw_vmci 0000:00:07.7: Found VMCI PCI device at 0x11080, irq 16
+Oct 11 22:46:44 controller1 kern.info kernel: [    5.436134] vmw_vmci 0000:00:07.7: Using capabilities 0xc
+Oct 11 22:46:44 controller1 kern.info kernel: [    5.436712] Guest personality initialized and is active
+Oct 11 22:46:44 controller1 kern.info kernel: [    5.436776] VMCI host device registered (name=vmci, major=10, minor=58)
+Oct 11 22:46:44 controller1 kern.info kernel: [    5.436777] Initialized host personality
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.347013] Linux agpgart interface v0.103
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.356728] [drm] Initialized
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.370326] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.372947] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.372980] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.764384] e1000 0000:02:01.0 eth0: (PCI:66MHz:32-bit) 00:0c:29:e4:6a:54
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.764393] e1000 0000:02:01.0 eth0: Intel(R) PRO/1000 Network Connection
+Oct 11 22:46:44 controller1 kern.err kernel: [    6.766476] piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.772101] agpgart-intel 0000:00:00.0: Intel 440BX Chipset
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.772581] agpgart-intel 0000:00:00.0: AGP aperture is 256M @ 0x0
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.774641] input: PC Speaker as /devices/platform/pcspkr/input/input3
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.782395] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input5
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.782589] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input4
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.786902] hidraw: raw HID events driver (C) Jiri Kosina
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.798616] mousedev: PS/2 mouse device common for all mice
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.817049] usbcore: registered new interface driver usbhid
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.817051] usbhid: USB HID core driver
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.829971] input: VMware VMware Virtual USB Mouse as /devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1/2-1:1.0/0003:0E0F:0003.0001/input/input6
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.830138] hid-generic 0003:0E0F:0003.0001: input,hidraw0: USB HID v1.10 Mouse [VMware VMware Virtual USB Mouse] on usb-0000:02:00.0-1/input0
+Oct 11 22:46:44 controller1 kern.info kernel: [    6.878329] Floppy drive(s): fd0 is 1.44M
+Oct 11 22:46:44 controller1 kern.info kernel: [   10.079973] floppy0: no floppy controllers found
+Oct 11 22:46:44 controller1 kern.info kernel: [   10.080026] work still pending
+Oct 11 22:46:44 controller1 kern.info kernel: [   10.119384] NET: Registered protocol family 17
+Oct 11 22:46:44 controller1 kern.alert kernel: [   10.133596] grsec: time set by /bin/busybox[hwclock:3350] uid/euid:0/0 gid/egid:0/0, parent /lib/rc/sh/openrc-run.sh[openrc-run.sh:3328] uid/euid:0/0 gid/egid:0/0
+Oct 11 22:46:44 controller1 kern.alert kernel: [   10.157051] grsec: time set by /bin/busybox[hwclock:3354] uid/euid:0/0 gid/egid:0/0, parent /lib/rc/sh/openrc-run.sh[openrc-run.sh:3328] uid/euid:0/0 gid/egid:0/0
+Oct 11 22:46:44 controller1 kern.info kernel: [   10.174662] EXT4-fs (sda3): re-mounted. Opts: data=ordered
+Oct 11 22:46:44 controller1 kern.notice kernel: [   10.303301] random: crng init done
+Oct 11 22:46:44 controller1 kern.info kernel: [   10.396538] Adding 1048572k swap on /dev/sda2.  Priority:-1 extents:1 across:1048572k 
+Oct 11 22:46:44 controller1 kern.info kernel: [   10.644628] EXT4-fs (sda1): recovery complete
+Oct 11 22:46:44 controller1 kern.info kernel: [   10.644857] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: data=ordered
+Oct 11 22:46:44 controller1 kern.info kernel: [   10.750497] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Oct 11 22:46:44 controller1 daemon.info init: starting pid 3730, tty '': '/sbin/openrc default'
+Oct 11 22:46:44 controller1 cron.info crond[3775]: crond (busybox 1.26.2) started, log level 8
+Oct 11 22:46:44 controller1 kern.info kernel: [   11.663465] NET: Registered protocol family 10
+Oct 11 22:46:44 controller1 auth.info sshd[3807]: Server listening on 0.0.0.0 port 22.
+Oct 11 22:46:44 controller1 auth.info sshd[3807]: Server listening on :: port 22.
+Oct 11 22:46:44 controller1 daemon.info init: starting pid 3811, tty '/dev/tty1': '/sbin/getty 38400 tty1'
+Oct 11 22:46:44 controller1 daemon.info init: starting pid 3812, tty '/dev/tty2': '/sbin/getty 38400 tty2'
+Oct 11 22:46:44 controller1 daemon.info init: starting pid 3815, tty '/dev/tty3': '/sbin/getty 38400 tty3'
+Oct 11 22:46:44 controller1 daemon.info init: starting pid 3818, tty '/dev/tty4': '/sbin/getty 38400 tty4'
+Oct 11 22:46:44 controller1 daemon.info init: starting pid 3821, tty '/dev/tty5': '/sbin/getty 38400 tty5'
+Oct 11 22:46:44 controller1 daemon.info init: starting pid 3824, tty '/dev/tty6': '/sbin/getty 38400 tty6'
+Oct 11 22:47:01 controller1 auth.info login[3827]: root login on 'tty1'
+Oct 11 22:47:45 controller1 kern.warn kernel: [   72.430906] FAT-fs (sdb1): utf8 is not a recommended IO charset for FAT filesystems, filesystem will be case sensitive!
+Oct 11 22:47:45 controller1 kern.warn kernel: [   72.458070] FAT-fs (sdb1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.

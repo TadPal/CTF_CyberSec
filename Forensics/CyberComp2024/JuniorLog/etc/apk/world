@@ -1,0 +1,10 @@
+acct
+alpine-base
+ca-certificates
+e2fsprogs
+libcurl
+linux-hardened
+openssh
+python
+syslinux
+wget

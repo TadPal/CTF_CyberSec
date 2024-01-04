@@ -1,0 +1,92 @@
+[2017-10-10 14:57:24] I go faster as root.
+[2017-10-10 14:57:24] Using JSON-RPC 2.0
+[2017-10-10 14:57:24] 1 miner threads started, using 'cryptonight' algorithm.
+[2017-10-10 14:57:24] Starting Stratum on stratum+tcp://xmr.pool.minergate.com:45560
+[2017-10-10 14:57:24] Pool set diff to 1063
+[2017-10-10 14:57:24] Stratum detected new block
+[2017-10-10 14:58:22] accepted: 1/1 (100.00%), 36.03 H/s at diff 1063 (yay!!!)
+[2017-10-10 14:58:23] Pool set diff to 500
+[2017-10-10 14:58:23] Stratum detected new block
+[2017-10-10 14:58:50] accepted: 2/2 (100.00%), 50.35 H/s at diff 500 (yay!!!)
+[2017-10-10 14:58:51] accepted: 3/3 (100.00%), 44.76 H/s at diff 500 (yay!!!)
+[2017-10-10 14:59:03] accepted: 4/4 (100.00%), 48.40 H/s at diff 500 (yay!!!)
+[2017-10-10 14:59:15] accepted: 5/5 (100.00%), 51.64 H/s at diff 500 (yay!!!)
+[2017-10-10 14:59:29] accepted: 6/6 (100.00%), 51.10 H/s at diff 500 (yay!!!)
+[2017-10-10 14:59:31] accepted: 7/7 (100.00%), 49.44 H/s at diff 500 (yay!!!)
+[2017-10-10 14:59:32] accepted: 8/8 (100.00%), 47.65 H/s at diff 500 (yay!!!)
+[2017-10-10 14:59:42] Stratum detected new block
+[2017-10-10 14:59:50] accepted: 9/9 (100.00%), 48.31 H/s at diff 500 (yay!!!)
+[2017-10-10 15:00:07] accepted: 10/10 (100.00%), 46.46 H/s at diff 500 (yay!!!)
+[2017-10-10 15:00:33] accepted: 11/11 (100.00%), 51.89 H/s at diff 500 (yay!!!)
+[2017-10-10 15:00:38] Stratum detected new block
+[2017-10-10 15:00:40] accepted: 12/12 (100.00%), 44.72 H/s at diff 500 (yay!!!)
+[2017-10-10 15:00:40] accepted: 13/13 (100.00%), 46.63 H/s at diff 500 (yay!!!)
+[2017-10-10 15:00:40] Stratum detected new block
+[2017-10-10 15:00:42] accepted: 14/14 (100.00%), 51.97 H/s at diff 500 (yay!!!)
+[2017-10-11 15:00:06] accepted: 15/15 (100.00%), 50.62 H/s at diff 500 (yay!!!)
+[2017-10-11 15:00:30] accepted: 16/16 (100.00%), 48.25 H/s at diff 500 (yay!!!)
+[2017-10-11 15:00:42] accepted: 17/17 (100.00%), 50.78 H/s at diff 500 (yay!!!)
+[2017-10-11 15:00:57] accepted: 18/18 (100.00%), 38.51 H/s at diff 500 (yay!!!)
+[2017-10-11 15:01:03] accepted: 19/19 (100.00%), 36.61 H/s at diff 500 (yay!!!)
+[2017-10-11 15:01:40] accepted: 20/20 (100.00%), 40.23 H/s at diff 500 (yay!!!)
+[2017-10-11 15:01:55] accepted: 21/21 (100.00%), 49.81 H/s at diff 500 (yay!!!)
+[2017-10-11 15:01:56] accepted: 22/22 (100.00%), 47.71 H/s at diff 500 (yay!!!)
+[2017-10-11 15:02:17] accepted: 23/23 (100.00%), 23.18 H/s at diff 500 (yay!!!)
+[2017-10-11 15:02:21] accepted: 24/24 (100.00%), 47.92 H/s at diff 500 (yay!!!)
+[2017-10-11 15:02:34] accepted: 25/25 (100.00%), 46.81 H/s at diff 500 (yay!!!)
+[2017-10-11 15:02:38] accepted: 26/26 (100.00%), 48.44 H/s at diff 500 (yay!!!)
+[2017-10-11 15:02:47] accepted: 27/27 (100.00%), 46.84 H/s at diff 500 (yay!!!)
+[2017-10-11 15:03:09] accepted: 28/28 (100.00%), 50.79 H/s at diff 500 (yay!!!)
+[2017-10-11 15:03:19] accepted: 29/29 (100.00%), 50.07 H/s at diff 500 (yay!!!)
+[2017-10-11 15:03:22] accepted: 30/30 (100.00%), 49.85 H/s at diff 500 (yay!!!)
+[2017-10-11 15:03:24] accepted: 31/31 (100.00%), 50.25 H/s at diff 500 (yay!!!)
+[2017-10-11 15:03:25] accepted: 32/32 (100.00%), 50.67 H/s at diff 500 (yay!!!)
+[2017-10-11 15:03:44] accepted: 33/33 (100.00%), 52.38 H/s at diff 500 (yay!!!)
+[2017-10-11 15:03:46] accepted: 34/34 (100.00%), 48.54 H/s at diff 500 (yay!!!)
+[2017-10-11 15:04:02] accepted: 35/35 (100.00%), 46.92 H/s at diff 500 (yay!!!)
+[2017-10-11 15:04:07] accepted: 36/36 (100.00%), 47.92 H/s at diff 500 (yay!!!)
+[2017-10-11 15:04:11] Stratum detected new block
+[2017-10-11 15:04:32] accepted: 37/37 (100.00%), 48.97 H/s at diff 500 (yay!!!)
+[2017-10-11 15:04:42] Stratum detected new block
+[2017-10-11 15:04:48] accepted: 38/38 (100.00%), 49.82 H/s at diff 500 (yay!!!)
+[2017-10-11 15:04:49] accepted: 39/39 (100.00%), 46.93 H/s at diff 500 (yay!!!)
+[2017-10-11 15:04:54] accepted: 40/40 (100.00%), 49.47 H/s at diff 500 (yay!!!)
+[2017-10-11 15:05:03] accepted: 41/41 (100.00%), 49.19 H/s at diff 500 (yay!!!)
+[2017-10-11 15:05:11] accepted: 42/42 (100.00%), 46.13 H/s at diff 500 (yay!!!)
+[2017-10-11 15:05:16] accepted: 43/43 (100.00%), 47.33 H/s at diff 500 (yay!!!)
+[2017-10-11 15:05:27] accepted: 44/44 (100.00%), 51.44 H/s at diff 500 (yay!!!)
+[2017-10-11 15:05:31] accepted: 45/45 (100.00%), 48.04 H/s at diff 500 (yay!!!)
+[2017-10-11 15:05:35] accepted: 46/46 (100.00%), 49.11 H/s at diff 500 (yay!!!)
+[2017-10-11 15:05:36] Stratum detected new block
+[2017-10-11 15:05:52] accepted: 47/47 (100.00%), 51.85 H/s at diff 500 (yay!!!)
+[2017-10-11 15:05:53] accepted: 48/48 (100.00%), 49.02 H/s at diff 500 (yay!!!)
+[2017-10-11 15:06:02] accepted: 49/49 (100.00%), 43.46 H/s at diff 500 (yay!!!)
+[2017-10-11 15:06:12] accepted: 50/50 (100.00%), 47.25 H/s at diff 500 (yay!!!)
+[2017-10-11 15:06:20] accepted: 51/51 (100.00%), 50.73 H/s at diff 500 (yay!!!)
+[2017-10-11 15:06:26] accepted: 52/52 (100.00%), 47.76 H/s at diff 500 (yay!!!)
+[2017-10-11 15:06:39] accepted: 53/53 (100.00%), 46.66 H/s at diff 500 (yay!!!)
+[2017-10-11 15:06:46] accepted: 54/54 (100.00%), 51.69 H/s at diff 500 (yay!!!)
+[2017-10-11 15:07:01] Stratum detected new block
+[2017-10-11 15:07:01] accepted: 55/55 (100.00%), 46.90 H/s at diff 500 (yay!!!)
+[2017-10-11 15:07:08] accepted: 56/56 (100.00%), 51.59 H/s at diff 500 (yay!!!)
+[2017-10-11 15:07:12] accepted: 57/57 (100.00%), 51.49 H/s at diff 500 (yay!!!)
+[2017-10-11 15:07:20] accepted: 58/58 (100.00%), 50.72 H/s at diff 500 (yay!!!)
+[2017-10-11 15:07:34] accepted: 59/59 (100.00%), 49.68 H/s at diff 500 (yay!!!)
+[2017-10-11 15:07:34] accepted: 60/60 (100.00%), 42.54 H/s at diff 500 (yay!!!)
+[2017-10-11 15:07:49] accepted: 61/61 (100.00%), 49.74 H/s at diff 500 (yay!!!)
+[2017-10-11 15:07:54] accepted: 62/62 (100.00%), 46.22 H/s at diff 500 (yay!!!)
+[2017-10-11 15:08:06] accepted: 63/63 (100.00%), 48.43 H/s at diff 500 (yay!!!)
+[2017-10-11 15:08:16] accepted: 64/64 (100.00%), 48.13 H/s at diff 500 (yay!!!)
+[2017-10-11 15:08:19] accepted: 65/65 (100.00%), 48.49 H/s at diff 500 (yay!!!)
+[2017-10-11 15:08:19] accepted: 66/66 (100.00%), 40.49 H/s at diff 500 (yay!!!)
+[2017-10-11 15:08:24] accepted: 67/67 (100.00%), 46.55 H/s at diff 500 (yay!!!)
+[2017-10-11 15:08:39] accepted: 68/68 (100.00%), 50.88 H/s at diff 500 (yay!!!)
+[2017-10-11 15:08:46] accepted: 69/69 (100.00%), 49.18 H/s at diff 500 (yay!!!)
+[2017-10-11 15:08:52] Pool set diff to 510
+[2017-10-11 15:08:52] Stratum detected new block
+[2017-10-11 15:08:55] accepted: 70/70 (100.00%), 48.74 H/s at diff 510 (yay!!!)
+[2017-10-11 15:09:19] accepted: 71/71 (100.00%), 51.83 H/s at diff 510 (yay!!!)
+[2017-10-11 15:09:23] accepted: 72/72 (100.00%), 50.62 H/s at diff 510 (yay!!!)
+[2017-10-11 15:09:27] accepted: 73/73 (100.00%), 50.70 H/s at diff 510 (yay!!!)
+[2017-10-11 15:09:41] accepted: 74/74 (100.00%), 48.39 H/s at diff 510 (yay!!!)
+[2017-10-11 15:09:48] SIGTERM received, exiting
