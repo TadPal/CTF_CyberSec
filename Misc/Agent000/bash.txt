@@ -1,0 +1,90 @@
+user@d4871d2f1e73:/photos$ stat -c %s 0
+102
+user@d4871d2f1e73:/photos$ stat -c %s 1       
+108
+user@d4871d2f1e73:/photos$ stat -c %s 2   
+97
+user@d4871d2f1e73:/photos$ stat -c %s 3
+103
+user@d4871d2f1e73:/photos$ stat -c %s 4
+123
+user@d4871d2f1e73:/photos$ stat -c %s 5
+97
+user@d4871d2f1e73:/photos$ stat -c %s 6
+103
+user@d4871d2f1e73:/photos$ stat -c %s 7
+101
+user@d4871d2f1e73:/photos$ stat -c %s 8            
+110
+user@d4871d2f1e73:/photos$ stat -c %s 9
+116
+user@d4871d2f1e73:/photos$ stat -c %s 10
+45
+user@d4871d2f1e73:/photos$ stat -c %s 11
+48
+user@d4871d2f1e73:/photos$ stat -c %s 12
+48
+user@d4871d2f1e73:/photos$ stat -c %s 13
+48
+user@d4871d2f1e73:/photos$ stat -c %s 14
+45
+user@d4871d2f1e73:/photos$ stat -c %s 15
+119
+user@d4871d2f1e73:/photos$ stat -c %s 16
+105
+user@d4871d2f1e73:/photos$ stat -c %s 17
+116
+user@d4871d2f1e73:/photos$ stat -c %s 18 
+104
+user@d4871d2f1e73:/photos$ stat -c %s 19
+45
+user@d4871d2f1e73:/photos$ stat -c %s 20
+110
+user@d4871d2f1e73:/photos$ stat -c %s 21
+111
+user@d4871d2f1e73:/photos$ stat -c %s 22 
+45
+user@d4871d2f1e73:/photos$ stat -c %s 23
+112
+user@d4871d2f1e73:/photos$ stat -c %s 24
+101
+user@d4871d2f1e73:/photos$ stat -c %s 25
+114
+user@d4871d2f1e73:/photos$ stat -c %s 26
+109
+user@d4871d2f1e73:/photos$ stat -c %s 27
+105
+user@d4871d2f1e73:/photos$ stat -c %s 28
+115
+user@d4871d2f1e73:/photos$ stat -c %s 29
+115
+user@d4871d2f1e73:/photos$ stat -c %s 30
+105
+user@d4871d2f1e73:/photos$ stat -c %s 31
+111
+user@d4871d2f1e73:/photos$ stat -c %s 32
+110
+user@d4871d2f1e73:/photos$ stat -c %s 33
+115
+user@d4871d2f1e73:/photos$ stat -c %s 34
+45
+user@d4871d2f1e73:/photos$ stat -c %s 35
+48
+user@d4871d2f1e73:/photos$ stat -c %s 36
+99
+user@d4871d2f1e73:/photos$ stat -c %s 37
+50
+user@d4871d2f1e73:/photos$ stat -c %s 38
+55
+user@d4871d2f1e73:/photos$ stat -c %s 39
+52
+user@d4871d2f1e73:/photos$ stat -c %s 40
+48
+user@d4871d2f1e73:/photos$ stat -c %s 41
+101
+user@d4871d2f1e73:/photos$ stat -c %s 42
+51
+user@d4871d2f1e73:/photos$ stat -c %s 43
+99
+user@d4871d2f1e73:/photos$ stat -c %s 44
+125
