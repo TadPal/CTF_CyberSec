@@ -128,14 +128,18 @@ int main() {
     puts("       === ŽABÁK ===");
     puts("Žabák skáče po programu, a když bude skákat správně získá i vlajku!");
 
-    size_t pointer = (size_t)protahnout_nohy;
+    size_t pointer;
+    size_t mem = (size_t)&rozcvicit_jazyk;
+    printf("Pointer address: %p\n", pointer);
+    printf("Rozcvicit jazk: %p\n", mem);
     while (true) {
         printf("Kam si dnes žabák skočí?\n");
-        printf("Pointer address: %zx\n", pointer);
-        if (fread(&pointer, sizeof pointer, 1, stdin) != 1) {
-            puts("Ups, tak to byl nepovedený skok :(");
-            exit(1);
-        }
+        fread(&pointer, sizeof pointer, 1, stdin);
+        printf("Pointer again: %p\n", pointer);
+        //if (fread(&pointer, sizeof pointer, 1, stdin) != 1) {
+        //    puts("Ups, tak to byl nepovedený skok :(");
+        //    exit(1);
+        //}
         // ela hop!
         ((void (*)())pointer)();
     }

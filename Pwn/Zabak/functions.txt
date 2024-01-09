@@ -1,0 +1,11 @@
+protahnout_nohy - 0x000000401280
+skok1 - 0x0000004012e3
+udelat_drep x42 - 0x000000401236
+skok2 - 0x00000040132b
+opravdu_pripravit_zabu - 0x00000040125f
+skok3 - 0x000000401368
+rozcvicit_jazyk - 0x0000004012c2
+skok4 - 0x0000004013a5
+zahajit_utok - 0x0000004012a1
+skok5 - 0x0000004013e5
+moucha_ulovena - 0x000000401425
