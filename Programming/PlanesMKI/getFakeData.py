@@ -9,8 +9,16 @@ def get_data():
     #       f.write(json.dumps(line))
 
     planes = line.get("planes")
-    airports = line.get("airports")
-    no_fly_zones = line.get("no_fly_zones")
+    airports_dict = line.get("airports")
+    no_fly_zones_dict = line.get("no_fly_zones")
+
+    airports = [(airport["x"], airport["y"]) for airport in airports_dict]
+    airports.sort(key=lambda x: x[0])
+
+    no_fly_zones = [
+        (no_fly_zone["x"], no_fly_zone["y"]) for no_fly_zone in no_fly_zones_dict
+    ]
+    no_fly_zones.sort(key=lambda x: x[0])
 
     for i, plane in enumerate(planes):
         plane["target"] = airports[plane["target"]]

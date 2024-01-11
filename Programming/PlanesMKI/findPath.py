@@ -1,3 +1,6 @@
+from time import time
+
+
 def find_path(plane, no_fly_zones, airports):
     open_tiles = []
     closed_tiles = []
@@ -6,12 +9,13 @@ def find_path(plane, no_fly_zones, airports):
     def set_tile_value(tile, target):
         tile["value"]["h"] = max(
             [
-                abs(tile["x"] - target["x"]),
-                abs(tile["y"] - target["y"]),
+                abs(tile["x"] - target[0]),
+                abs(tile["y"] - target[1]),
             ]
         )
-        if abs(tile["x"] - target["x"]) == abs(tile["y"] - target["y"]):
-            tile["value"]["h"] = tile["value"]["h"] + abs(tile["x"] - target["x"])
+        if tile["x"] - target[0] == tile["y"] - target[1]:
+            tile["value"]["h"] = tile["value"]["h"] + abs(tile["x"] - target[0])
+
         tile["value"]["f"] = tile["value"]["h"] + tile["value"]["g"]
 
     def check_orientation(position, index, path):
@@ -80,8 +84,10 @@ def find_path(plane, no_fly_zones, airports):
                     new_tile["x"] = tile["x"] - 1
                     new_tile["y"] = tile["y"] + 1
 
+            cmp = (new_tile["x"], new_tile["y"])
+
             # Check if tile isn't forbidden
-            if new_tile["x"] == target["x"] and new_tile["y"] == target["y"]:
+            if cmp == target:
                 isFinal = True
 
             if isFinal:
@@ -91,18 +97,12 @@ def find_path(plane, no_fly_zones, airports):
                 return open_list
 
             for airport in airports:
-                if new_tile["x"] == airport["x"] and new_tile["y"] == airport["y"]:
+                if cmp == airport:
                     add = False
                     break
             if add:
                 for i, c_tile in enumerate(closed_tiles):
                     if new_tile["x"] == c_tile["x"] and new_tile["y"] == c_tile["y"]:
-                        # new_tile["value"]["g"] = tile["value"]["g"] + 1
-                        # new_tile = set_tile_value(new_tile, last_tile)
-
-                        # if c_tile["value"]["g"] < new_tile["value"]["g"]:
-                        #     closed_tiles[i]["value"]["g"] = new_tile["value"]["g"]
-
                         add = False
                         break
             if add:
@@ -112,7 +112,7 @@ def find_path(plane, no_fly_zones, airports):
                         break
             if add:
                 for zone in no_fly_zones:
-                    if new_tile["x"] == zone["x"] and new_tile["y"] == zone["y"]:
+                    if cmp == zone:
                         add = False
                         break
 
@@ -125,11 +125,12 @@ def find_path(plane, no_fly_zones, airports):
         return open_list
 
     ###########################################################################
-    ################################    MAIN        ###########################
+    ################################    MAIN    ###############################
     ###########################################################################
 
     # Initial plane state
-    target = {"x": plane["target"]["x"], "y": plane["target"]["y"]}
+    target = (plane["target"][0], plane["target"][1])
+    initial_direction = plane["direction"]
     tile = {"x": plane["x"], "y": plane["y"], "value": {"f": 0, "h": 0, "g": 0}}
     set_tile_value(tile=tile, target=target)
 
@@ -139,8 +140,10 @@ def find_path(plane, no_fly_zones, airports):
     # Until last tile is found
     while True:
         open_tiles += find_adjecent_tiles(tile, target)
-        best_tile = open_tiles[-1]
-        index = len(open_tiles) - 1
+        open_tiles.sort(key=lambda x: x["value"]["f"])
+
+        best_tile = open_tiles[0]
+        index = 0
         found = False
 
         for i, op_tile in enumerate(open_tiles):
@@ -149,10 +152,6 @@ def find_path(plane, no_fly_zones, airports):
                 closed_tiles += [op_tile]
                 found = True
                 break
-            if op_tile["value"]["f"] < best_tile["value"]["f"]:
-                best_tile = op_tile
-                index = i
-
         if found:
             break
 
@@ -161,6 +160,8 @@ def find_path(plane, no_fly_zones, airports):
                 if best_tile["value"]["g"] < tl["value"]["g"]:
                     best_tile = tl
                     index = i
+            if best_tile["value"]["f"] < tl["value"]["f"]:
+                break
 
         tile = best_tile
         open_tiles.pop(index)
@@ -169,7 +170,7 @@ def find_path(plane, no_fly_zones, airports):
     ####################################################
     ################### BACKTRACKING ###################
     ####################################################
-    closed_tiles.reverse()
+    closed_tiles.sort(key=lambda x: x["value"]["g"], reverse=True)
     backtrack = closed_tiles[0]
     path = [backtrack]
 
