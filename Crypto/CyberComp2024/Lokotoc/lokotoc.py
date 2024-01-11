@@ -15,13 +15,12 @@ else:
     FLAG = os.environ["FLAG"].encode()
 
 for i in range(1):
-	FLAG = base64.b64encode(FLAG) # nafoukneme vlajku
+    FLAG = base64.b64encode(FLAG)  # nafoukneme vlajku
 
 key = os.urandom(32)  # AES-256 je bezpecnejsi nez AES-128
 used_nonces = set()
 
 print("Vitejte na nasem lokotoci!")
-print(f"Klíč je: {key.hex()}")
 while 1:
     print("1. Zasifrovat zpravu")
     print("2. Zasifrovat vlajku")
