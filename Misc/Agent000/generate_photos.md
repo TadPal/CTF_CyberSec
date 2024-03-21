@@ -14,7 +14,7 @@ done
 ```
 The script copies the flag and makes a file named 0-N for each letter in the flag. It also writes as many character in to the file as is the value of the character in ASCII.
 
-3. You cannot read the contents of photos but you can access it. And since we know the are files named 0-N we can check their size with 
+3. You cannot read the contents of photos but you can access it. And since we know the files are named "0-N" we can check their size with 
 ```bash
 stat -c %s NAME_OF_FILE
 ``` 
